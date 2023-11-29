@@ -29,16 +29,26 @@ nav {
     justify-content: space-around;
 }
 
-.logo img {
+.logo img{
     width: 220px;
     height: 35px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     margin-top: 19px;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav li:hover {
+    transform: scale(1.5) rotate(-2deg);
+}
+
+nav a:hover{
+    color: rgb(206, 96, 22);
 }
 
 nav a {
@@ -59,6 +69,7 @@ nav a {
     border-bottom: 1px solid red;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .about-container {
@@ -105,6 +116,12 @@ nav a {
     line-height: 39px;
     font-size: 26px;
     font-family: var(--oswald);
+    transition: transform 0.3s ease-in-out;
+}
+
+.details:hover {
+    transform: scale(1.2);
+    background-color: rgb(221, 220, 220);
 }
 
 .cards-container {
@@ -135,6 +152,7 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .cards ul li {
@@ -165,36 +183,52 @@ nav a {
     display: block;
 }
 
+.cards li {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cards li:hover {
+    transform: scale(1) rotate(-2deg);
+}
+
 .cards li:nth-of-type(1):hover {
     background-color: var(--grey);
+    box-shadow: 0 0 10px black, 25px 25px 50px var(--grey);
 }
 
 .cards li:nth-of-type(2):hover {
     background-color: var(--light-blue);
+    box-shadow: 0 0 10px black, 25px 25px 50px var(--light-blue);
 }
 
 .cards li:nth-of-type(3):hover {
     background-color: var(--light-blue2);
+    box-shadow: 0 0 10px black, 25px 25px 50px var(--light-blue2);
 }
 
 .cards li:nth-of-type(4):hover {
     background-color: var(--grey);
+    box-shadow: 0 0 10px black, 25px 25px 50px var(--grey);
 }
 
 .cards li:nth-of-type(5):hover {
     background-color: var(--light-green);
+    box-shadow: 0 0 10px black, 25px 25px 50px var(--light-green);
 }
 
 .cards li:nth-of-type(6):hover {
     background-color: var(--dark-pink);
+    box-shadow: 0 0 10px black, 25px 25px 50px var(--dark-pink);
 }
 
 .cards li:nth-of-type(7):hover {
     background-color: var(--dark-yellow);
+    box-shadow: 0 0 10px black, 25px 25px 50px var(--dark-yellow);
 }
 
 .cards li:nth-of-type(8):hover {
     background-color: var(--dark-yellow2);
+    box-shadow: 0 0 10px black, 25px 25px 50px var(--dark-yellow2);
 }
 
 .container-footer {
@@ -215,7 +249,7 @@ nav a {
     line-height: 90px;
 }
 
-.fancybox{
+.fancybox {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -225,7 +259,7 @@ nav a {
     margin-bottom: 101px;
 }
 
-.fancybox img{
+.fancybox img {
     width: 400px;
     height: 224px;
 }
