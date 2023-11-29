@@ -262,4 +262,9 @@ nav a {
 .fancybox img {
     width: 400px;
     height: 224px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.fancybox img:hover{
+    transform: scale(1.1);
 }
