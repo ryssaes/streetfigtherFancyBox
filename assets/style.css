@@ -79,7 +79,7 @@ nav a {
 .about-container {
     height: 500px;
     width: 100%;
-    background-image: url('/assets/images/about-img.png');
+    background-image: url('images/about-img.png');
     border-bottom: 1px solid red;
 }
 
