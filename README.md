@@ -12,7 +12,7 @@ Bem-vindo ao incrível projeto Street Fighter! Este é um jogo responsivo desenv
 
 ## 📷 Preview do Projeto
 
-![Preview 1](path/to/image1.jpg)
+![Preview 1](assets/images/capa.png)
 
 ## 🛠 Instalação
 
