@@ -13,7 +13,6 @@ Bem-vindo ao incrível projeto Street Fighter! Este é um jogo responsivo desenv
 ## 📷 Preview do Projeto
 
 ![Preview 1](path/to/image1.jpg)
-![Preview 2](path/to/image2.jpg)
 
 ## 🛠 Instalação
 
@@ -22,22 +21,6 @@ Bem-vindo ao incrível projeto Street Fighter! Este é um jogo responsivo desenv
     ```bash
     git clone https://github.com/seu-usuario/seu-repositorio.git
     ```
-
-2. Abra o arquivo `index.html` no seu navegador.
-
-## 🤝 Como Contribuir
-
-Sinta-se à vontade para contribuir para este projeto! Aqui estão algumas maneiras de fazer isso:
-
-1. Faça um fork do projeto.
-2. Crie uma nova branch com a sua feature: `git checkout -b feature-nova`.
-3. Faça commit das suas alterações: `git commit -m 'Adiciona nova feature'`.
-4. Faça push para a branch: `git push origin feature-nova`.
-5. Abra um Pull Request.
-
-## 📝 Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE) - veja o arquivo para mais detalhes.
 
 ## 🎉 Agradecimentos
 
